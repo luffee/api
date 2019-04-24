@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4a05d7-259b-45dd-840f-e68a262101c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +223,7 @@
       <workItem from="1555782139328" duration="850000" />
       <workItem from="1556034609754" duration="920000" />
       <workItem from="1556095723450" duration="1004000" />
-      <workItem from="1556100101570" duration="696000" />
+      <workItem from="1556100101570" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1555629925360</created>
@@ -247,17 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556096647775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minor change for picture url from url thumb to full size as some url thumbs are not created">
+      <created>1556100846813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556100846813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11673000" />
+    <option name="totallyTimeSpent" value="11728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,7 +274,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -287,7 +292,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added index htmls" />
     <MESSAGE value="changes search query to fetch image urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes search query to fetch image urls" />
+    <MESSAGE value="minor change for picture url from url thumb to full size as some url thumbs are not created" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor change for picture url from url thumb to full size as some url thumbs are not created" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
