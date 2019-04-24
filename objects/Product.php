@@ -39,7 +39,7 @@ class Product
 
     public function search($keyword)
     {
-        $query = "SELECT DISTINCT vm_p.virtuemart_product_id AS id, product_sku AS sku, product_name AS name, product_price AS price, file_url_thumb AS url_thumb
+        $query = "SELECT DISTINCT vm_p.virtuemart_product_id AS id, product_sku AS sku, product_name AS name, product_price AS price, file_url AS url_thumb
                     FROM 
                         b635h_virtuemart_products vm_p, b635h_virtuemart_products_sr_yu vm_p_sr, b635h_virtuemart_product_prices vm_pr, b635h_virtuemart_product_medias vm_pm, b635h_virtuemart_medias m
                     WHERE
