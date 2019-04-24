@@ -27,7 +27,9 @@ if ($num > 0) {
             "id" => $id,
             "name" => $name,
             "sku" => $sku,
-            "price" => $price
+            "price" => $price,
+            "override" => $override,
+            "discount" => $discount
         );
         array_push($products_arr["records"], $product_item);
     }

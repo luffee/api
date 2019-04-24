@@ -30,7 +30,9 @@ if ($num > 0) {
             "name" => $name,
             "sku" => $sku,
             "price" => $price,
-            "url_thumb" => $url_thumb
+            "url_thumb" => $url_thumb,
+            "override" => $override,
+            "discount" => $discount
         );
 
         array_push($products_arr["records"], $product_item);

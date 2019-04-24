@@ -26,7 +26,8 @@ class Product
                     WHERE 
                     vm_p.virtuemart_product_id= vm_p_sr.virtuemart_product_id
                     AND 
-                    vm_p_sr.virtuemart_product_id = vm_pr.virtuemart_product_id";
+                    vm_p_sr.virtuemart_product_id = vm_pr.virtuemart_product_id
+                    LIMIT 20";
 
         $stmt = $this->conn->prepare($query);
 
@@ -51,7 +52,8 @@ class Product
                     AND  
                         vm_pm.virtuemart_media_id = m.virtuemart_media_id
                     AND  
-                        vm_p.product_sku LIKE  ?";
+                        vm_p.product_sku LIKE  ?
+                    LIMIT 1";
 
         $stmt = $this->conn->prepare($query);
 
